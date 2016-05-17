@@ -1,5 +1,6 @@
 Grails: Using createLink method call with params 
 
+
 <g:set var="myarray" value="[hide:true]" />
 <a href="${createLink(action: 'list', controller: 'ticket', params:myarray)}">
     <span>Hide Closed Issues</span>
